@@ -1,0 +1,15 @@
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\bin\Debug\net6.0\Calculate_Score_Of_Students.exe
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\bin\Debug\net6.0\Calculate_Score_Of_Students.deps.json
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\bin\Debug\net6.0\Calculate_Score_Of_Students.runtimeconfig.json
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\bin\Debug\net6.0\Calculate_Score_Of_Students.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\bin\Debug\net6.0\Calculate_Score_Of_Students.pdb
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.csproj.AssemblyReference.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.AssemblyInfoInputs.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.AssemblyInfo.cs
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.csproj.CoreCompileInputs.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\refint\Calculate_Score_Of_Students.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.pdb
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\Calculate_Score_Of_Students.genruntimeconfig.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\First_Proj\obj\Debug\net6.0\ref\Calculate_Score_Of_Students.dll
