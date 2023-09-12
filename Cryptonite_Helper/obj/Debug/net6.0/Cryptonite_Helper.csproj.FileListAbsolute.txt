@@ -1,0 +1,15 @@
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\bin\Debug\net6.0\Cryptonite_Helper.exe
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\bin\Debug\net6.0\Cryptonite_Helper.deps.json
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\bin\Debug\net6.0\Cryptonite_Helper.runtimeconfig.json
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\bin\Debug\net6.0\Cryptonite_Helper.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\bin\Debug\net6.0\Cryptonite_Helper.pdb
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.csproj.AssemblyReference.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.AssemblyInfoInputs.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.AssemblyInfo.cs
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.csproj.CoreCompileInputs.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\refint\Cryptonite_Helper.dll
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.pdb
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\Cryptonite_Helper.genruntimeconfig.cache
+C:\Users\skyne\Desktop\Development\Studying\Csharp_Studying\Cryptonite_Helper\obj\Debug\net6.0\ref\Cryptonite_Helper.dll
