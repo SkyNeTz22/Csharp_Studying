@@ -47,6 +47,7 @@ namespace ShopApp
                 }
                 // Trigger the ResetCompleted event
                 ResetCompleted?.Invoke(this, EventArgs.Empty);
+                // delete all recovery tokens after reset is done..
 
             }
             else
