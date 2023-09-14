@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <connectionStrings>
-    <add name="MyDbConnection" connectionString="xXoi59Vx5Jhxy98n3qFhT7Tkm/Eg7nPDTSh/mxFv+S/oGVI34rxGsOqtyilCHPv8/qG/c620n21McEbL2sFe5Ax2TJsojUs+vEHmBINvtIixXFfrQhHbXYr4Z1SDRR49i096TQp4p5+QVqWTpFUzXvZpjVXQJvyEW0KA7fGw3C8=" />
-  </connectionStrings>
-</configuration>
