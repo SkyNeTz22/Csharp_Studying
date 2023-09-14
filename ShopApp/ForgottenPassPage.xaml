@@ -1,0 +1,26 @@
+﻿<Page x:Class="ShopApp.ForgottenPassPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ShopApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ForgottenPassPage">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+            <TextBlock Text="Recover Password" FontSize="24" 
+                       Margin="10"/>
+            <TextBox Name="EmailTextBox" 
+                     Margin="10"/>
+            <Button Content="Recover password" 
+                    Click="RecoverPass_Click" 
+                    Margin="10"/>
+            <Button Content="Back" 
+                    Click="BackButton_Click" 
+                    Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Page>
