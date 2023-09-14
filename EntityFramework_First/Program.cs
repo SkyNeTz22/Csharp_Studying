@@ -49,7 +49,6 @@ namespace EntityFramework_First {
                 {
                     Console.WriteLine("User not found.");
                 }
-
             }
         }
     }
