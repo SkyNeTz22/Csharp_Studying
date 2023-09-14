@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MimeKit;
 using MailKit.Net.Smtp;
+using MailKit.Security;
 
 namespace ShopAPI.Controllers
 {
@@ -26,12 +27,8 @@ namespace ShopAPI.Controllers
             {
                 string subject = "Password Recovery";
 
-                // Construct the email body using the bodyMessage parameter
-                TextPart bodyText = new TextPart();
-                bodyText.SetText("utf-8", requestDto.BodyMessage);
-
                 // Create and send the email
-                SendMail(email, subject, bodyText);
+                SendHtmlEmail(email, subject, requestDto.BodyMessage);
 
                 return Ok("Recovery email sent successfully.");
             }
@@ -41,7 +38,7 @@ namespace ShopAPI.Controllers
             }
         }
 
-        private void SendMail(string recipient, string subject, TextPart body)
+        private void SendHtmlEmail(string recipient, string subject, string bodyHtml)
         {
             if (string.IsNullOrEmpty(recipient))
             {
@@ -57,23 +54,36 @@ namespace ShopAPI.Controllers
                 message.From.Add(new MailboxAddress("Sender", senderEmail));
                 message.To.Add(new MailboxAddress("Recipient", recipient));
                 message.Subject = subject;
+
+                // Create the HTML body part
+                var body = new TextPart("html")
+                {
+                    Text = bodyHtml
+                };
+
+                // Set the message body
                 message.Body = body;
 
                 // Create the SMTP client
                 using (var client = new SmtpClient())
                 {
-                    // Connect to the local SMTP server
-                    client.Connect("smtp.gmail.com", 465, true);
+                    // Connect to the Gmail SMTP server
+                    client.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
+
+                    // Authenticate with your Gmail account
                     client.Authenticate("enemymailer@gmail.com", "knpceoymnxgmvwfs");
+
                     // Send the email
                     client.Send(message);
+
                     // Disconnect from the server
                     client.Disconnect(true);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return;
+                Console.WriteLine($"Error sending email: {ex.Message}");
+                // Handle the exception as needed
             }
         }
     }
